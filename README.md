@@ -145,15 +145,6 @@ masters_thesis/
 ├── Thesis3_Semanticseg.ipynb           # Step 3: Semantic model training
 ├── Thesis4_Radaraltimeter_sim.ipynb    # Step 4: Radar emulation & P_geo
 ├── Thesis5_SDF.ipynb                   # Step 5: Fusion logic & validation
-│
-├── appendix/
-│   ├── requirements.txt                # Python dependencies
-│   └── source_code_snippets.py         # Modular code examples
-│
-├── docs/
-│   ├── figures/                        # Result visualizations
-│   └── thesis_final.pdf                # Full thesis document
-│
 ├── LICENSE                             # MIT License
 └── README.md                           # This file
 ```
@@ -268,30 +259,6 @@ Execute notebooks in numbered order for full reproducibility:
 
 ---
 
-## 🎨 **Results**
-
-### **Visual Examples**
-
-#### **1. Radar Elevation Map (Emulated)**
-*Synthetic FMCW radar profile showing altitude measurements with SNR-based dropout*
-
-![Radar Elevation Map](docs/figures/radar_elevation_map.png)
-
-#### **2. Semantic Segmentation Output**
-*Terrain classification: grass (green), sand (yellow), water (blue), obstacles (red)*
-
-![Semantic Segmentation](docs/figures/semantic_segmentation.png)
-
-#### **3. Fused Safety Map**
-*Combined P_safe showing high-confidence landing zones in white*
-
-![Fused Safety Map](docs/figures/fused_safety_map.png)
-
-#### **4. Detected Safe Landing Zones**
-*Ranked polygons overlaid on orthophoto with area and safety scores*
-
-![Landing Zones](docs/figures/detected_landing_zones.png)
-
 ### **Quantitative Results**
 
 **Confusion Matrix (DeepLabV3+ Test Set):**
@@ -368,7 +335,7 @@ Copyright (c) 2025 Koti Reddy Syamala
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
+in the Software without restriction, including, without limitation, the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software...
 ```
